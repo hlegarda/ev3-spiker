@@ -63,4 +63,4 @@ I'm doing this in my free time, so it'll be a work in progress until further not
 
 ## License
 
-Code released under the license [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Code released under the license [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
