@@ -6,7 +6,7 @@
   <h3 align="center">EV3 Spiker - Python</h3>
 
   <p align="center">
-    Python API specific for the EV3 Spiker robot.
+    Python API for the EV3 Spiker robot.
   </p>
 </p>
 
