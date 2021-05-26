@@ -1,6 +1,6 @@
 <p align="center">
   <a href="">
-    <img src="https://raw.githubusercontent.com/hlegarda/ev3-spiker/master/spiker.jpeg" alt="Logo" width=120 height=98>
+    <img src="https://raw.githubusercontent.com/hlegarda/ev3-spiker/master/spiker.jpeg" alt="Logo" width=380 height=254>
   </a>
 
   <h3 align="center">EV3 Spiker - Python</h3>
