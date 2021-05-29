@@ -19,10 +19,10 @@ def my_action():
 
     """
     #ev3.light.on(Color.RED)
-    spikerTail = Tail()
+    spiker_tail = Tail()
 
-    spikerEyes = Eyes()
-    spikerEyes.process_stimuli(spikerTail.shoot)
+    spiker_eyes = Eyes()
+    spiker_eyes.process_stimuli(spiker_tail.shoot)
 
 
 repeat(my_action, 2)
