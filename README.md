@@ -40,6 +40,7 @@ This will create a new .venv directory in your project. This contains a Python i
 For activate this new environment type
 	
 	. .venv/bin/activate
+	
 Then we should upgrade our package manager
 	
 	pip install --upgrade pip
