@@ -6,12 +6,16 @@ from Voice import Voice
 from Screen import Screen
 
 class Actions:
-    tail = Tail()
-    legs = Legs()
-    eyes = Eyes()
-    lights = Lights()
-    voice = Voice()
-    screen = Screen()
+
+    def __init__(self, ev3):
+        self.ev3 = ev3
+        self.tail = Tail()
+        self.legs = Legs()
+        self.eyes = Eyes()
+        self.lights = Lights(self.ev3)
+        self.voice = Voice(self.ev3)
+        self.screen = Screen(self.ev3)
+
 
     def attack(self):
         self.screen.clear()

@@ -1,9 +1,7 @@
-
-from pybricks.hubs import EV3Brick
-
 class Screen:
     
-    ev3 = EV3Brick()
+    def __init__(self, ev3):
+        self.ev3 = ev3
 
     def output(self, text):
         self.ev3.screen.draw_text(2, 100, text)

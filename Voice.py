@@ -1,7 +1,6 @@
-from pybricks.hubs import EV3Brick
-
 class Voice:
-    ev3 = EV3Brick()
+    def __init__(self, ev3):
+        self.ev3 = ev3
 
     def talk(self):
         voice = self.ev3.speaker

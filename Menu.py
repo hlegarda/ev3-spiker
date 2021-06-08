@@ -7,7 +7,7 @@ class Menu:
 
     def handle_button_press(self):
 
-        actions = Actions()
+        actions = Actions(self.ev3)
 
         button = self.wait_for_button()
 
