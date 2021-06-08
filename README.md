@@ -29,7 +29,7 @@ You can get information on how to setup your EV3 brick to run Python programs in
 My IDE (and Lego's ) of choice is Visual Studio Code. You can get more information on how to install it at https://code.visualstudio.com/
 
 Once you have that installed, you should get the EV3 and Python extensions for VS Code. Both are included as suggested extensions in this project.
-Because I added some docs and images to the project, we want to exclude those from being downloaded to the EV3, for this you have to go to the ev3dev-browser extension settings (this extension gets installed along with the EV3 extension) and in the 'Ev3dev Browser › Download: Include' section you should have **/*.py
+Because I added some docs to the project, we want to exclude those from being downloaded to the EV3, for this you have to go to the ev3dev-browser extension settings (this extension gets installed along with the EV3 extension) and in the 'Ev3dev Browser › Download: Include' section you should have **/*.{py,png} 
 
 Once you have the project open, we should create a new Python virtual environment as we need to install a couple of libraries and we don't want to do that globally. Go to your VS Code terminal tab and type
 
