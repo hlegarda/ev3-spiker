@@ -26,7 +26,7 @@ class Menu:
 
 
     def wait_for_button(self):
-        #self.ev3.screen.load_image('buttons.png')
+        self.ev3.screen.load_image('buttons.png')
 
         pressed = []
         while len(pressed) != 1:
