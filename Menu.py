@@ -1,6 +1,7 @@
 from pybricks.hubs import EV3Brick
 from pybricks.parameters import Button
 from Actions import Actions
+from RemoteController import RemoteController
 
 class Menu:
     ev3 = EV3Brick()
@@ -8,6 +9,7 @@ class Menu:
     def handle_button_press(self):
 
         actions = Actions(self.ev3)
+        remote = RemoteController(self.ev3)
 
         button = self.wait_for_button()
 
@@ -16,11 +18,11 @@ class Menu:
         elif button == Button.RIGHT:
             actions.walk()
         elif button == Button.UP:
-            actions.walk_and_shoot()
+            actions.conversation()
         elif button == Button.DOWN:
             actions.detect_and_shoot_beacon()
         elif button == Button.CENTER:
-            actions.conversation()
+            remote.remote_control()
 
 
     def wait_for_button(self):

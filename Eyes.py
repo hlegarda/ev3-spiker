@@ -3,6 +3,7 @@ from pybricks.parameters import Port
 from pybricks.tools import wait
 
 class Eyes:
+    BEACON_CHANNEL = 1
     eyes_sensor = InfraredSensor(Port.S4)
 
     def process_stimuli(self, func):
@@ -16,7 +17,7 @@ class Eyes:
 
     
     def check_bug_distance(self):
-        bug_location = self.eyes_sensor.beacon(4)
+        bug_location = self.eyes_sensor.beacon(self.BEACON_CHANNEL)
         bug_distance = bug_location[0]
         # bugAngle = bugLocation[1]
         if bug_distance is None:
