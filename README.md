@@ -20,6 +20,8 @@
 
 ## Quick start
 
+Clone project at https://github.com/hlegarda/ev3-spiker
+
 When I started working with ev3dev and micropython I ran into some problems that took me more time than I care to admit. If you want to start coding the EV3 I recommend you first start with some of the models Lego provides (in this case Spiker) until you get familiar with the mechanics of the motors and sensors. 
 
 I want this project to be a good reference on how to setup a development environment and the first steps you can take to code.
