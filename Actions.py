@@ -1,5 +1,6 @@
 from Tail import Tail
 from Legs import Legs
+from Claws import Claws
 from Eyes import Eyes
 from Lights import Lights
 from Voice import Voice
@@ -12,6 +13,7 @@ class Actions:
         self.tail = Tail()
         self.legs = Legs()
         self.eyes = Eyes()
+        self.claws = Claws()
         self.lights = Lights(self.ev3)
         self.voice = Voice(self.ev3)
         self.screen = Screen(self.ev3)
@@ -43,5 +45,6 @@ class Actions:
     def conversation(self):
         self.screen.clear()
         self.screen.output("CONVERSATION")
+        self.claws.move_claws()
         self.lights.turn_green()
         self.voice.talk()
