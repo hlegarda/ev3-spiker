@@ -55,7 +55,7 @@ After this, connect your robot with the EV3 DEVICE BROWSER section in VS Code an
 
 ## Status
 
-I'm doing this in my free time, so it'll be a work in progress until further notice.
+I consider this as done, I'm moving to other ev3 robots of my own design.
 
 ## Creator
 
